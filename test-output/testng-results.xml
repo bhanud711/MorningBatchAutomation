@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23128" started-at="2022-03-02T01:34:13Z" finished-at="2022-03-02T01:34:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23128" started-at="2022-03-02T01:34:13Z" finished-at="2022-03-02T01:34:36Z">
+      <class name="com.orgtest.AlertTest">
+        <test-method status="PASS" signature="popup()[pri:0, instance:com.orgtest.AlertTest@1b604f19]" name="popup" duration-ms="12357" started-at="2022-03-02T01:34:13Z" finished-at="2022-03-02T01:34:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popup -->
+        <test-method status="PASS" signature="popup()[pri:0, instance:com.orgtest.AlertTest@1b604f19]" name="popup" duration-ms="12067" started-at="2022-03-02T01:34:13Z" finished-at="2022-03-02T01:34:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popup -->
+        <test-method status="PASS" signature="popup()[pri:0, instance:com.orgtest.AlertTest@1b604f19]" name="popup" duration-ms="10219" started-at="2022-03-02T01:34:25Z" finished-at="2022-03-02T01:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popup -->
+        <test-method status="PASS" signature="popup()[pri:0, instance:com.orgtest.AlertTest@1b604f19]" name="popup" duration-ms="10739" started-at="2022-03-02T01:34:25Z" finished-at="2022-03-02T01:34:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popup -->
+      </class> <!-- com.orgtest.AlertTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
