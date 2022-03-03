@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class DemoqaTest {
 
-	@Test(enabled=false)
+	@Test()
 	public void demoQA()
 	{
 		System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");

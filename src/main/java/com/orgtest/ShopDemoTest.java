@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class ShopDemoTest {
 
 	
-	@Test()
+	@Test(groups= {"sanity"})
 	public void demoQA()
 	{
 		System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");

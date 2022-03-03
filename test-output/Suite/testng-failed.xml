@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="10" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.orgtest.DemoqaTest">
+        <methods>
+          <include name="demoQA"/>
+        </methods>
+      </class> <!-- com.orgtest.DemoqaTest -->
+      <class name="com.orgtest.FacebookTest">
+        <methods>
+          <include name="facebook"/>
+        </methods>
+      </class> <!-- com.orgtest.FacebookTest -->
+      <class name="com.orgtest.HRMTest">
+        <methods>
+          <include name="orangeHRM"/>
+          <include name="tth"/>
+        </methods>
+      </class> <!-- com.orgtest.HRMTest -->
+      <class name="com.orgtest.ShopDemoTest">
+        <methods>
+          <include name="demoQA"/>
+        </methods>
+      </class> <!-- com.orgtest.ShopDemoTest -->
+      <class name="com.orgtest.AlertTest">
+        <methods>
+          <include name="popup"/>
+        </methods>
+      </class> <!-- com.orgtest.AlertTest -->
+      <class name="com.orgtest.AmazonTest">
+        <methods>
+          <include name="amazon"/>
+        </methods>
+      </class> <!-- com.orgtest.AmazonTest -->
+      <class name="com.orgtest.AutoTest">
+        <methods>
+          <include name="hrm"/>
+        </methods>
+      </class> <!-- com.orgtest.AutoTest -->
+      <class name="com.orgtest.MedplusTest">
+        <methods>
+          <include name="medplus"/>
+        </methods>
+      </class> <!-- com.orgtest.MedplusTest -->
+      <class name="com.orgtest.FrameTest">
+        <methods>
+          <include name="boarder"/>
+        </methods>
+      </class> <!-- com.orgtest.FrameTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

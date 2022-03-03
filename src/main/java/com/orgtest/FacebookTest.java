@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class FacebookTest {
 
-	@Test
+	@Test(groups= {"smoke"})
 	public void facebook()
 	{
 		System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
