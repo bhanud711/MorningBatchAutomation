@@ -2,19 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12248" started-at="2022-03-03T01:25:18Z" finished-at="2022-03-03T01:25:30Z">
+  <suite name="Default suite" duration-ms="18589" started-at="2022-03-05T01:27:37Z" finished-at="2022-03-05T01:27:56Z">
     <groups>
-      <group name="regression">
-        <method signature="MedplusTest.medplus()[pri:0, instance:com.orgtest.MedplusTest@1b604f19]" name="medplus" class="com.orgtest.MedplusTest"/>
-      </group> <!-- regression -->
     </groups>
-    <test name="Default test" duration-ms="12248" started-at="2022-03-03T01:25:18Z" finished-at="2022-03-03T01:25:30Z">
-      <class name="com.orgtest.MedplusTest">
-        <test-method status="PASS" signature="medplus()[pri:0, instance:com.orgtest.MedplusTest@1b604f19]" name="medplus" duration-ms="12191" started-at="2022-03-03T01:25:18Z" finished-at="2022-03-03T01:25:30Z">
+    <test name="Default test" duration-ms="18589" started-at="2022-03-05T01:27:37Z" finished-at="2022-03-05T01:27:56Z">
+      <class name="com.test.OrangeLogin">
+        <test-method status="PASS" signature="begin()[pri:0, instance:com.test.OrangeLogin@3ffc5af1]" name="begin" is-config="true" duration-ms="185" started-at="2022-03-05T01:27:37Z" finished-at="2022-03-05T01:27:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- medplus -->
-      </class> <!-- com.orgtest.MedplusTest -->
+        </test-method> <!-- begin -->
+        <test-method status="PASS" signature="loginPageHRM()[pri:0, instance:com.test.OrangeLogin@3ffc5af1]" name="loginPageHRM" duration-ms="18564" started-at="2022-03-05T01:27:37Z" finished-at="2022-03-05T01:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageHRM -->
+        <test-method status="PASS" signature="finsh()[pri:0, instance:com.test.OrangeLogin@3ffc5af1]" name="finsh" is-config="true" duration-ms="386" started-at="2022-03-05T01:27:56Z" finished-at="2022-03-05T01:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finsh -->
+      </class> <!-- com.test.OrangeLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -9,39 +9,69 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
 
 import com.google.common.io.Files;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
 
 public class OrangeLogin {
 public static ChromeDriver driver;
 public static int i=0;
-	public static void main(String[] args) throws IOException {
+public static ExtentReports report;
+public static ExtentTest test;
+
+@BeforeSuite
+public void begin()
+{
+	report=new ExtentReports(".//reports//HrmAppReport.html",true);
+	report.addSystemInfo("Envionment", "QA");
+	report.addSystemInfo("Author", "manjusha");
+	report.addSystemInfo("userStory", "US10234");
+	 test = report.startTest("To verify HRM loginpage working with valid credentials");
+}
+
+      @Test
+	public void loginPageHRM() throws IOException {
 		// TODO Auto-generated method stub
 System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
 driver=new ChromeDriver();
-OrangeLogin login=new OrangeLogin();
 driver.get("https://opensource-demo.orangehrmlive.com/");
 driver.manage().window().maximize();
 System.out.println(driver.getTitle());
 System.out.println(driver.getCurrentUrl());
 driver.findElement(By.xpath("//input[@id='txtUsername']")).sendKeys("Admin");
-login.snap();
+test.log(LogStatus.PASS, "Entered UserName"+test.addScreenCapture(snap()));
 driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("admin123");
-login.snap();
+test.log(LogStatus.PASS, "Entered Password"+test.addScreenCapture(snap()));
 driver.findElement(By.xpath("//input[@name='Submit']")).click();
-login.snap();
-	
+test.log(LogStatus.PASS, "ClickedLoginbutton"+test.addScreenCapture(snap()));
 	}
-	public void snap() throws IOException
+	
+	
+	public String snap() throws IOException
 	{
 		Random r=new Random();
+		String dummy="";
 		if(r.nextInt()!=0)
 		{
 			i=i+1;
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		File dest=new File(".//images//pic"+i+".png");
 		FileUtils.copyFile(src, dest);
+		dummy=dest.getAbsolutePath();
 		}
+		return dummy;
 	}
 
+	@AfterSuite
+	public void finsh()
+	{
+		report.endTest(test);
+		report.flush();
+	}
 }
