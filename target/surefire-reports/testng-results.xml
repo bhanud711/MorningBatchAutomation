@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" ignored="18" total="20" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15057" started-at="2022-03-07T01:12:13Z" finished-at="2022-03-07T01:12:28Z">
+  <suite name="Suite" duration-ms="12519" started-at="2022-03-10T01:30:47Z" finished-at="2022-03-10T01:31:00Z">
     <groups>
       <group name="smoke">
-        <method signature="FacebookTest.facebook()[pri:0, instance:com.orgtest.FacebookTest@614c5515]" name="facebook" class="com.orgtest.FacebookTest"/>
-        <method signature="FlipcartTest.ecomerce()[pri:0, instance:com.orgtest.FlipcartTest@77b52d12]" name="ecomerce" class="com.orgtest.FlipcartTest"/>
+        <method signature="FacebookTest.facebook()[pri:0, instance:com.orgtest.FacebookTest@54a097cc]" name="facebook" class="com.orgtest.FacebookTest"/>
+        <method signature="FlipcartTest.ecomerce()[pri:0, instance:com.orgtest.FlipcartTest@36f6e879]" name="ecomerce" class="com.orgtest.FlipcartTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="15057" started-at="2022-03-07T01:12:13Z" finished-at="2022-03-07T01:12:28Z">
+    <test name="Test" duration-ms="12519" started-at="2022-03-10T01:30:47Z" finished-at="2022-03-10T01:31:00Z">
       <class name="com.orgtest.FlipcartTest">
-        <test-method status="PASS" signature="ecomerce()[pri:0, instance:com.orgtest.FlipcartTest@77b52d12]" name="ecomerce" duration-ms="8574" started-at="2022-03-07T01:12:19Z" finished-at="2022-03-07T01:12:28Z">
+        <test-method status="PASS" signature="ecomerce()[pri:0, instance:com.orgtest.FlipcartTest@36f6e879]" name="ecomerce" duration-ms="8302" started-at="2022-03-10T01:30:51Z" finished-at="2022-03-10T01:31:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ecomerce -->
       </class> <!-- com.orgtest.FlipcartTest -->
       <class name="com.orgtest.FacebookTest">
-        <test-method status="PASS" signature="facebook()[pri:0, instance:com.orgtest.FacebookTest@614c5515]" name="facebook" duration-ms="6450" started-at="2022-03-07T01:12:13Z" finished-at="2022-03-07T01:12:19Z">
+        <test-method status="PASS" signature="facebook()[pri:0, instance:com.orgtest.FacebookTest@54a097cc]" name="facebook" duration-ms="4181" started-at="2022-03-10T01:30:47Z" finished-at="2022-03-10T01:30:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebook -->
