@@ -12,6 +12,7 @@ public class AnuTest {
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
 	}
 
 }
