@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orgtest.MedplusTest">
+      <class name="com.orgtest.ExcelDataTest">
         <methods>
-          <include name="medplus"/>
+          <include name="excel"/>
         </methods>
-      </class> <!-- com.orgtest.MedplusTest -->
+      </class> <!-- com.orgtest.ExcelDataTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

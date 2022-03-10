@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--2129179585\testng-customsuite.xml</span>
+                    <span>C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-314123174\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.test.OrangeLogin" hash-for-method="loginPageHRM">loginPageHRM</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.orgtest.LoginHRMWorkingWithExcel" hash-for-method="ihgLogin(Admin, admin123)">ihgLogin(Admin, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.orgtest.LoginHRMWorkingWithExcel" hash-for-method="ihgLogin(rama, krishna)">ihgLogin(rama, krishna)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.orgtest.LoginHRMWorkingWithExcel" hash-for-method="ihgLogin(lavanya, anuradha)">ihgLogin(lavanya, anuradha)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +130,31 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.test.OrangeLogin</span>
+              <span class="class-name">com.orgtest.LoginHRMWorkingWithExcel</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginPageHRM">
-                  </a> <!-- loginPageHRM -->
-                  <span class="method-name">loginPageHRM</span>
+                  <a name="ihgLogin(Admin, admin123)">
+                  </a> <!-- ihgLogin(Admin, admin123) -->
+                  <span class="method-name">ihgLogin</span>
+                  <span class="parameters">(Admin, admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ihgLogin(rama, krishna)">
+                  </a> <!-- ihgLogin(rama, krishna) -->
+                  <span class="method-name">ihgLogin</span>
+                  <span class="parameters">(rama, krishna)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ihgLogin(lavanya, anuradha)">
+                  </a> <!-- ihgLogin(lavanya, anuradha) -->
+                  <span class="method-name">ihgLogin</span>
+                  <span class="parameters">(lavanya, anuradha)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +162,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--2129179585\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-314123174\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +171,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.test.OrangeLogin&quot;/&gt;
+      &lt;class name=&quot;com.orgtest.LoginHRMWorkingWithExcel&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -184,16 +211,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginPageHRM')
-data.setCell(0, 2, 'com.test.OrangeLogin')
-data.setCell(0, 3, 18564);
+data.setCell(0, 1, 'ihgLogin')
+data.setCell(0, 2, 'com.orgtest.LoginHRMWorkingWithExcel')
+data.setCell(0, 3, 16904);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ihgLogin')
+data.setCell(1, 2, 'com.orgtest.LoginHRMWorkingWithExcel')
+data.setCell(1, 3, 9666);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ihgLogin')
+data.setCell(2, 2, 'com.orgtest.LoginHRMWorkingWithExcel')
+data.setCell(2, 3, 9509);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -219,19 +254,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.test.OrangeLogin</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">begin</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
+              <div class="chronological-class-name">com.orgtest.LoginHRMWorkingWithExcel</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">loginPageHRM</span>
-                <span class="method-start">201 ms</span>
+                <span class="method-name">ihgLogin(Admin, admin123)</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-suite after">
-                <span class="method-name">finsh</span>
-                <span class="method-start">18797 ms</span>
-              </div> <!-- configuration-suite after -->
+              <div class="test-method">
+                <span class="method-name">ihgLogin(rama, krishna)</span>
+                <span class="method-start">16907 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ihgLogin(lavanya, anuradha)</span>
+                <span class="method-start">26574 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
