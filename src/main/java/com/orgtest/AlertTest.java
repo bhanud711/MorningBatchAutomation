@@ -7,7 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class AlertTest {
-     @Test(threadPoolSize=2,invocationCount=4)
+    
+	@Test(threadPoolSize=2,invocationCount=4)
 	public void popup()
 	{
     	 System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
